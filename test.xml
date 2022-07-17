@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suit name="DemoShubham">
+    <test name="Test Google">
+        <classes>
+            <class name="StepDefinition.GoogleSearch">
+                <methods>
+                    <include name="openChromeBrowserAndEnterTheLink"/>
+                    <include name="get_the_title_of_the_webpage"/>
+                    <include name="close_the_browser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Test MSN">
+        <classes>
+            <class name="StepDefinition.MSN">
+                <methods>
+                    <include name="open_chrome_browser_and_enter_the"/>
+                    <include name="get_title_of_the_webpage"/>
+                    <include name="quit_browser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suit>
